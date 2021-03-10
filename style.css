@@ -1,0 +1,20 @@
+@import url("./normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap");
+/**
+2b2d42 mörkgrå
+8d99ae grå
+edf2f4 ljusgrå
+ef233c klarröd
+d90429 mörkröd
+**/
+
+:root {
+  --main-bg-color: #2b2d42;
+  --main-bg-color2: #8d99ae;
+  --main-text-color: #edf2f4;
+  --main-accent-color: #d90429;
+  --main-accent-color2: #ef233c;
+}
+html {
+  scroll-behavior: smooth;
+}
