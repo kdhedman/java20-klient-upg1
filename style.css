@@ -59,7 +59,7 @@ nav li a {
 }
 
 nav li a:hover {
-  box-shadow: inset 0px 0px 3px 1px var(--main-bg-color2);
+  box-shadow: inset 0px 0px 0px 2px var(--main-accent-color);
 }
 
 main {
