@@ -1,20 +1,81 @@
-@import url("./normalize.css");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap");
-/**
-2b2d42 mörkgrå
-8d99ae grå
-edf2f4 ljusgrå
-ef233c klarröd
-d90429 mörkröd
-**/
 
 :root {
   --main-bg-color: #2b2d42;
   --main-bg-color2: #8d99ae;
   --main-text-color: #edf2f4;
-  --main-accent-color: #d90429;
-  --main-accent-color2: #ef233c;
+  --main-link-color: #f0a274;
+  --main-accent-color: #d96404;
+  --main-accent-color2: #ef6e23;
 }
 html {
   scroll-behavior: smooth;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  position: absolute;
+  top: 5px;
+  bottom: 0px;
+  margin: 0% 10%;
+  width: 80%;
+}
+
+h1 {
+  font-family: "Source Serif Pro", serif;
+  font-size: 200%;
+  color: #ffdeb4;
+}
+
+a {
+  color: var(--main-link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--main-accent-color2);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 1px var(--main-bg-color2);
+}
+
+nav li {
+  float: left;
+  width: 6em;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  box-shadow: inset 0px 0px 3px 1px var(--main-bg-color2);
+}
+
+main {
+  padding-right: 5%;
+  padding-left: 5%;
+  width: 90%;
+  position: absolute;
+  top: 55px;
+  bottom: 62px;
+  box-shadow: inset 0px 0px 0px 1px var(--main-bg-color2);
+}
+
+footer {
+  background-color: var(--main-bg-color);
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
 }
